@@ -47,3 +47,19 @@ core
 #build dirs
 build/
 bin/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# # Virtual environments
+.venv
+
+# fastQ files
+*.fastq
+synapse_data/*.fastq.gz
+synapse_data/*.fastq
